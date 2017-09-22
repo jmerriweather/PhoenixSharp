@@ -1,7 +1,7 @@
 
 ![Imgur](http://i.imgur.com/B8ClrWe.png)
 
-A C# Phoenix Channels client. Unity Compatible.
+A C# Phoenix Channels client. Unity Compatible. Proudly powering [Dama King](http://level3.io).
 
 > Graphic is a shameless mix between unity, phoenix logos. Please don't sue me. Thanks.
 
@@ -14,7 +14,7 @@ A C# Phoenix Channels client. Unity Compatible.
 
 ## Roadmap
 
-This project will remain as a prerelease until Unity ships their .Net profile upgrade, which should be soon. This will allow this library to utilize the latest and greatest .Net 4.6 features, enhancing the experience further, and allowing us to reach v1.0!
+This project will remain as a prerelease until Unity ships their .Net profile upgrade, which ~should be soon~ **will debut in Unity 2017.1!!**. This will allow this library to utilize the latest and greatest .Net 4.6 features, enhancing the experience further, and allowing us to reach v1.0!
 
 For now, I am also experimenting with the best API implementation, so breaking changes might be introduced. Once we reach v1.0, API should be stabile, and we can then focus on integrating CI, and uploading the package to NuGet.
 
@@ -158,6 +158,8 @@ I'm personally shipping this library with my Unity game, so you can rest assured
 
 - **BestHTTP websockets** instead of Websocket-sharp. It's much better maintained and doesn't require synchronizing callbacks from the socket to the main thread. Websocket-sharp does need that.
 - **Json.NET** instead of Newtonsoft.Json, that's what I'm using. I've experienced weird issues in the past with the opensource Newtonsoft.Json on mobile platforms.
+
+**NOTE:** Many people are using BestHTTP, so I figured it would be useful to add that integration separately in the repo, for people to use. See the directory, `Vendor/BestHTTP`.
 
 ## Contributions
 
